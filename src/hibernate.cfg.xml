@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-configuration>
+	<session-factory>
+
+		<!-- Conection datbase settings -->
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<!-- Ubicacion BBDD -->
+		<property name="connection.url">jdbc:mysql://localhost:3306/test_bd</property>
+		<!-- usuario -->
+		<property name="connection.username">root</property>
+		<!-- contraseña -->
+		<property name="connection.password">lamisma</property>
+		<!-- dialecto sql -->
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<!-- mostras querys en consola -->
+		<property name="show_sql">true</property>
+
+	</session-factory>
+</hibernate-configuration>
