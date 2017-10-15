@@ -15,6 +15,7 @@ public class HibernateUtil {
 		try {
 
 			// para hibernate 4.3
+			
 
 			// Configuration configuration = new
 			// Configuration().Configure("hibernate.cfg.xml");
